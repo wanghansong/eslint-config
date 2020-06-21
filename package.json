@@ -1,14 +1,14 @@
 {
-  "name": "vue-typescript-eslint-config",
+  "name": "eslint-config",
   "version": "0.0.1-alpha",
-  "description": "eslint config for vue+typescript projects",
+  "description": "eslint config for vue | typescript projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/wanghansong/vue-typescript-eslint-config.git"
+    "url": "git+ssh://git@github.com/wanghansong/eslint-config.git"
   },
   "keywords": [
     "vue",
@@ -21,9 +21,9 @@
   "author": "wanghansongbupt@163.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wanghansong/vue-typescript-eslint-config/issues"
+    "url": "https://github.com/wanghansong/eslint-config/issues"
   },
-  "homepage": "https://github.com/wanghansong/vue-typescript-eslint-config#readme",
+  "homepage": "https://github.com/wanghansong/eslint-config#readme",
   "peerDependencies": {
     "eslint": "^6.7.2"
   },
