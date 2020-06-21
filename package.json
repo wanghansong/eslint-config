@@ -1,0 +1,46 @@
+{
+  "name": "vue-typescript-eslint-config",
+  "version": "0.0.1-alpha",
+  "description": "eslint config for vue+typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wanghansong/vue-typescript-eslint-config.git"
+  },
+  "keywords": [
+    "vue",
+    "typescript",
+    "eslint",
+    "config",
+    "styleguide",
+    "eslintconfig"
+  ],
+  "author": "wanghansongbupt@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wanghansong/vue-typescript-eslint-config/issues"
+  },
+  "homepage": "https://github.com/wanghansong/vue-typescript-eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "dependencies": {
+    "typescript": "~3.9.3",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-typescript": "~4.4.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "@release-it/conventional-changelog": "^1.1.4"
+  }
+}
