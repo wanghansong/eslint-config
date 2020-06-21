@@ -1,2 +1,2 @@
-### 0.0.1-alpha
+### 0.0.1
 * create base-config、vue-config、ts-config
