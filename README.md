@@ -1,11 +1,11 @@
 # eslint-config-vuetify
-> An opinionated eslint config for vue+typescript.
+> An opinionated eslint config for vue | typescript.
 
 ### 💿 Install
 ```bash
-yarn add @hans/eslint-config -D
+yarn add @iyoha/eslint-config -D
 # OR
-npm install @hans/eslint-config --save-dev
+npm install @iyoha/eslint-config --save-dev
 ```
 
 ### 🚀 Usage
@@ -14,7 +14,7 @@ Create an .eslintrc.js in the root directory of your project, then copy the foll
 ```js
 module.exports = {
     extends: [
-        '@hans/eslint-config',
+        '@iyoha/eslint-config',
     ],
     env: {
         // Your environments (which contains several predefined global variables)
@@ -42,8 +42,8 @@ Create an .eslintrc.js in the root directory of your project, then copy the foll
 ```js
 module.exports = {
     extends: [
-        '@hans/eslint-config',
-        '@hans/eslint-config/vue',
+        '@iyoha/eslint-config',
+        '@iyoha/eslint-config/vue',
     ],
     env: {
         // Your environments (which contains several predefined global variables)
@@ -70,8 +70,8 @@ Create an .eslintrc.js in the root directory of your project, then copy the foll
 ```js
 module.exports = {
     extends: [
-        '@hans/eslint-config',
-        '@hans/eslint-config/typescript',
+        '@iyoha/eslint-config',
+        '@iyoha/eslint-config/typescript',
     ],
     env: {
         // Your environments (which contains several predefined global variables)

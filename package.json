@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@iyoha/eslint-config",
   "version": "0.0.1-alpha",
   "description": "eslint config for vue | typescript projects",
   "main": "index.js",
