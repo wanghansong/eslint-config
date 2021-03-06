@@ -76,7 +76,7 @@ module.exports = {
          * 必须设置类的成员的可访问性
          * @reason 将不需要公开的成员设为私有的，可以增强代码的可理解性，对文档输出也很友好
          */
-        '@typescript-eslint/explicit-member-accessibility': 'error',
+        '@typescript-eslint/explicit-member-accessibility': 'off',
         /**
          * 导出的函数或类中的 public 方法必须定义输入输出参数的类型
          */
@@ -474,6 +474,8 @@ module.exports = {
          * 函数重载时，若能通过联合类型将两个函数的类型声明合为一个，则使用联合类型而不是两个函数声明
          */
         '@typescript-eslint/unified-signatures': 'error',
+        // 缩进
+        '@typescript-eslint/indent': ['error', 4, {SwitchCase: 1}],
     },
     overrides: [
         {
